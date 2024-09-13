@@ -1,0 +1,94 @@
+:root
+{
+  /* custom properties */
+
+  --green: #54c98f;
+  --orange: #ffae31;
+  --red: #ff4d63;
+  --gold: #a7823b;
+ 
+
+  --primario: #36119C;
+  --primarioOscuro: #1d0856;
+  --secundario: #008EFF;
+  --secundarioOscuro:#024a85;
+  --blanco: #ffffff;
+  --oscuro: #212121;
+  --gris: #757575;
+  --grisClaro: #d8d8d8;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+ 
+
+}
+
+.banner{
+  background-image: url(../img/banner.jpg);
+  background-size: cover;       /* Ajusta la imagen para cubrir el contenedor */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  width: 100%;  
+  min-height: 10rem;
+  position: relative;
+  
+}
+
+.fondo-transparencia{
+  background-color: rgba(29, 8, 86, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.txt-secundario{
+  color: var(--secundario);
+}
+
+.txt-primario{
+  color: var(--primario);
+}
+
+.txt-blanco{
+  color:var(--blanco);
+}
+
+.txt-orange{
+  color:var(--orange);
+}
+
+.fondo-primario{
+  background-color: var(--primario);
+}
+
+.fondo-primario__oscuro{
+  background-color: var(--primarioOscuro);
+}
+
+
+
+.fondo-secundario{
+  background-color: var(--secundario);
+}
+main{
+  min-height: 400px;
+}
+
+.nav-item a{
+
+  color:white;
+}
+.nav-item a:hover{
+  
+  color:var(--secundario);
+}
+
+.active{
+  color:var(--orange) !important;
+}
+
+.navbar-toggler-icon span{
+  color: var(--blanco)!important;
+}
